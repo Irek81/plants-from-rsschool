@@ -38,6 +38,9 @@ body {
 
 .btn:hover {
     cursor: pointer;
+    background: #E06733;
+    color: #fff;
+    transition: 0.5s all;
 }
 
 .section {
@@ -124,6 +127,7 @@ body {
     border: 2px solid #E06733;
     border-radius: 10px;
     background-color: #EDF2EC;
+    transition: 0.5s all;
 }
 
 /* ABOUT */
@@ -182,6 +186,7 @@ body {
     color: #E06733;
     background-color: #EDF2EC;
     width: 161px;
+    transition: 0.5s all;
 }
 
 .service-btn:last-child {
@@ -305,6 +310,7 @@ body {
     margin-top: 50px;
     margin-left: auto;
     margin-right: 0;
+    transition: 0.5s all;
 }
 
 .price-img {
