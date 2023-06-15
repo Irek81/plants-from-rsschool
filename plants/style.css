@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    /* font-family: 'Inika', serif; */
+    font-family: 'Inika', serif;
     /* font-family: 'Inter', sans-serif; */
     font-weight: 400;
 }
@@ -33,7 +33,7 @@ body {
     border-radius: 5px;
     padding: 12px 0;
     margin-right: 38px;
-    height: 50px;
+    height: 46px;
 }
 
 .btn:hover {
@@ -54,10 +54,15 @@ body {
     padding: 42px 0;
 }
 
+.nav__container {
+    width: 1222px;
+    margin: 0 auto;
+    align-items: center;
+}
+
 .menu {
     display: block;
     color: #000;
-    vertical-align: middle;
 }
 
 .nav-list {
@@ -74,6 +79,10 @@ body {
 .nav-item {
     color: #010201;
     text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 50px;
 }
 
 .nav-item:hover {
@@ -82,19 +91,22 @@ body {
 
 .nav-item_active {
     color: #E06733;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 50px;
 }
 
 /* WELCOME */
 .welcome {
     background-color: #EDF2EC;
-    padding: 62px 0;
+    padding: 62px 0 43px;
 }
 
 .content-img {
-    width: 449px;
+    width: 465px;
 }
 
-.content-text {
+.welcome__content_wrapper {
     padding-top: 36px;
     width: 549px;
 }
@@ -122,7 +134,7 @@ body {
     color: #000;
     font-size: 16px;
     text-transform: uppercase;
-    padding: 14px 27px;
+    padding: 14px 24px;
     margin-top: 48px;
     border: 2px solid #E06733;
     border-radius: 10px;
@@ -133,14 +145,25 @@ body {
 /* ABOUT */
 .about {
     background: #fff;
-    padding: 93px 0;
+    padding: 95px 0 88px;
+}
+
+.about_container {
+    align-items: center;
+}
+
+.welcome__about_wrapper {
+    width: 605px;
 }
 
 .about-title {
     font-family: 'Inika', serif;
+    font-style: normal;
+    font-weight: 400;
     font-size: 40px;
     line-height: 52px;
     color: #499A18;
+    width: 463px;
 }
 
 .orange-text {
@@ -148,7 +171,7 @@ body {
 }
 
 .about-text {
-    margin-top: 40px;
+    margin-top: 38px;
     font-size: 20px;
     color: #636060;
     line-height: 30px;
@@ -164,7 +187,7 @@ body {
 .services-content {
     display: flex;
     align-items: center;
-    margin-bottom: 90px;
+    margin-bottom: 80px;
 }
 
 .service-title {
@@ -212,7 +235,7 @@ body {
 
 .service-item-content {
     text-align: center;
-    padding: 10px 0 36px;
+    padding: 7px 0 36px;
     border: 1px solid #E3E1D5;
     border-radius: 0px 0px 20px 20px;
 }
@@ -233,7 +256,7 @@ body {
 /* PRISEC */
 .prices {
     font-family: 'Inter', sans-serif;
-    padding: 40px 0 115px;
+    padding: 37px 0 120px;
 }
 
 .wrapper-prices {
@@ -307,7 +330,7 @@ body {
     font-weight: 700;
     color: #E06733;
     background: #fff;
-    margin-top: 50px;
+    margin-top: 42px;
     margin-left: auto;
     margin-right: 0;
     transition: 0.5s all;
@@ -338,6 +361,7 @@ body {
 
 .contact-title {
     margin-left: 113px;
+    padding-top: 6px;
     font-size: 40px;
     font-weight: 700;
     color: #499A18;
@@ -352,8 +376,8 @@ body {
     height: 50px;
     background-color: #D6E7D2;
     margin-left: 64px;
-    margin-top: 77px;
-    padding: 0 20px;
+    margin-top: 94px;
+    padding: 0 26px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -374,7 +398,8 @@ body {
 /* FOOTER */
 .footer {
     font-family: 'Inter', sans-serif;
-    padding: 40px 0;
+    font-size: 20px;
+    padding: 48px 0;
 }
 
 .footer-content {
@@ -387,12 +412,16 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 182px;
+    width: 170px;
 }
 
 .link {
     text-decoration: none;
     color: #000;
+}
+
+.wrapper-rss {
+    margin-left: 12px;
 }
 
 .socials{
