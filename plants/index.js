@@ -1,7 +1,1 @@
-console.log (/n
-1. Valid layout: +10 /n
-2. Semantic layout: +20 /n
-3. Corresponds to the layout: +48 /n
-4. Css requirements: +12 /n
-5. Interactivity through css +20
-)
+console.log ("Valid layout:+10\nSemantic layout:+20\nCorresponds to the layout:+48\nCss requirements:+12\nInteractivity through css+20\n") ;
