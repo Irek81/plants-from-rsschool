@@ -459,19 +459,23 @@ body {
 .socials-link-instagramm {
     background-image: url(img/instagram.svg);
     background-color: #fff;
+    background-size: contain;
 }
 
 .socials-link-facebook {
     background-image: url(img/facebook.svg);
     background-color: #fff;
+    background-size: contain;
 }
 
 .socials-link-twitter {
     background-image: url(img/twitter.svg);
     background-color: #fff;
+    background-size: contain;
 }
 
 .socials-link-pinterest {
     background-image: url(img/pinterest.svg);
     background-color: #fff;
+    background-size: contain;
 }
